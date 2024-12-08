@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,58 +13,78 @@
 </head>
 <body>
     <header>
-        <a href="index.html">            
-            <h1><img src="img/Charly.png" width="50px" alt="Logo Charly Computers"></h1>
-        </a>
+        <a href="index.html" class="logo">
+                        
+            <img src="../img/charly-cuadrado.png" alt="Logo Empresa">
+            
+
+            <h2 class="nombre-empresa">Charly Computers</h2>
+        </a>    
     
         <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="quienesSomos.html">Quiénes somos</a></li>
-                <li><a href="tutoriales.html">Tutoriales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="pages/quienesSomos.html" class="nav-link">Quiénes somos</a>
+            <a href="pages/tutoriales.html" class="nav-link">Tutoriales</a>
+            <a href="pages/contacto.html" class="nav-link">Contacto</a>            
         </nav>
     </header>
     <main>
-        <h2>Servicios</h2>
-        <ul>
-            <div>
-                 <li>Servicio técnico</li>
-                 <img src="img/Servicio tecnico.jpg" width="250px" alt="Servicio Tecnico">
-                 <p>Presupuestos sin cargo y de acuerdo a tus necesidades.</p>
+
+        <section class="servicio">
+
+            <div class="servicio-gradient"></div>
+
+            <img src="img/servicio.jpg" alt="imagen-servicio" class="servicio-img">
+
+            <article class="servicio-articulo">
+                <h1 class="servicio-titulo">Servicio técnico integral de PC</h1>
+                <p class="servicio-parrafo">Brindamos nuestros servicios a empresas y a particulares. Nos destacamos porque sin importar cual sea su inquietud, para nosotros es muy importante que quedes tranquilo y con los resultados esperados</p>
+            </article>
+
+        </section>
+        <h2 class="titulo-servicios">Nuestros servicios</h2>
+
+        <div class="contenedor-servicios1">
+        
+            <div class="servicios">
+                    <h3>Reparación</h3>
+                    <img src="img/Servicio tecnico.jpg" width="250px" alt="Servicio Tecnico">
+                    <p>Presupuestos sin cargo. El valor de la reparación se ajustará a la complejidad de la misma.</p>
             </div>
 
-            <div>                
-                <li>Soporte remoto</li>
+            <div class="servicios">                
+                <h3>Soporte remoto</h3>
                 <img src="img/Soporte remoto.jpg" width="250px" alt="Soporte remoto">
                 <p>Te brindo ayuda de manera personal o de manera remota.</p>
             </div>
             
-            <div>
-                <li>Armado de PC</li>
+            <div class="servicios">
+                <h3>Armado de PC</h3>
                 <img src="img/Armado.webp" width="250px" alt="Armado">
                 <p>Armamos una PC que se ajuste a tus pretenciones y presupuesto</p>
             </div>
+        </div>    
+
+        <div class="contenedor-servicios2">
             
-            <div>
-                <li>Limpieza de PC</li>
+            <div class="servicios">
+                <h3>Limpieza de PC</h3>
                 <img src="img/Limpieza.webp" width="250px" alt="">
                 <p>Limpieza de Softaware y Hardware </p>
             </div>
 
-            <div>
-                <li>Actualización de PC</li>
+            <div class="servicios">
+                <h3>Actualización de PC</h3>
                 <img src="img/Actualizacion.png" width="250px" alt="Actualizacion">
                 <p>De esta manera podrás gozar de tu PC optimizada y con el rendimiento deseado</p>
-            </div>    
-        </ul>
+            </div>  
+        </div>  
+        
     </main>
     <footer>
-        <h2>Contacto</h2>
+        
         <a href="wa.me/+5491165424833"><i class="bi bi-whatsapp"></i> +5491165424833</a> 
         <p><i class="bi bi-envelope-at"></i> charlycomputers81@gmail.com</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1446.3584186598557!2d-58.39827402610625!3d-34.58664257640829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1727729060625!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p>Todos los derechos reservados <i class="bi bi-c-circle"></i> Charly Computers 2024</p>        
     </footer>
     
