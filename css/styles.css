@@ -190,7 +190,7 @@ nav a:hover{
 
 .imagen-servicio{
     display: flex;
-    min-width: 100%;
+    min-width: 90%;
     height: 25rem;
     
 }
