@@ -256,6 +256,12 @@ p {
     margin-right: 1rem;
 }
 
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 1.4rem;
+    }     
+}
+
 
 
 
