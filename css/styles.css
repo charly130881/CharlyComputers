@@ -184,16 +184,12 @@ nav a:hover{
         display:block;                
       }
 
-      .servicios{             
+      .servicios{   
+        width: 30rem;          
         margin: 0 auto 2rem auto;
       }      
 }
 
-@media (max-width: 557px) {
-     .servicios {
-        width: 31rem;
-     }
-}
 
 .imagen-servicio{
     display: flex;
