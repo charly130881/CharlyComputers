@@ -175,24 +175,30 @@ nav a:hover{
 }
 
 @media (max-width: 880px) {
+    
      .contenedor-servicios1{
-        display:block;                
+        display:block;          
       }
 
       .contenedor-servicios2{
         display:block;                
       }
 
-      .servicios{        
+      .servicios{             
         margin: 0 auto 2rem auto;
-      }
+      }      
+}
+
+@media (max-width: 557px) {
+     .servicios {
+        width: 30rem;
+     }
 }
 
 .imagen-servicio{
     display: flex;
-    min-width: 90%;
-    height: 25rem;
-    
+    min-width: 100%;
+    height: 25rem;    
 }
 
 .imagen-servicio img{
