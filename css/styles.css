@@ -439,3 +439,15 @@ textarea {
     }
      
 }
+
+@media (max-width: 600px) {           
+     textarea {
+        width: 40rem;
+     }
+
+     .formulario{
+        width: 40rem;
+     }
+
+    
+}
