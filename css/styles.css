@@ -289,15 +289,33 @@ p {
     margin-top: 5rem;
 }
 
+/* TUTORIALES */
+
+main h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.parrafo-tutoriales {
+    width: 50rem;
+    margin: 5rem auto;
+    font-size: 3rem;
+}
+
+.contenedor-tutoriales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .tutoriales {
     display: inline-block;
-    width: 450px;
-    height: 350px;
-    margin-right: 50px;
-    margin-left: 1px;
-    border-style: solid 2px;
-    border-radius: 5%;
-    border-width: 1.5px;
-    border-color: black;
-    background-color: blanchedalmond;
+    min-width: 450px;  
+    background-color: #159e71;
+    margin-bottom: 4rem;
+}
+
+.tutoriales h3 {
+    margin: 1rem;
 }
