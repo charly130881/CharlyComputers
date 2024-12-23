@@ -148,12 +148,10 @@ nav a:hover{
 
 .contenedor-servicios{   
     margin: 0 auto;
-    width: 80%;
-    
+    width: 80%;    
 }
 
-.contenedor-servicios1{
-    
+.contenedor-servicios1{    
     display: flex;  
     justify-content: space-around;  
     margin-bottom: 5rem;
@@ -173,6 +171,8 @@ nav a:hover{
     background-color: #fff;   
     margin: 0 1rem; 
 }
+
+
 
 @media (max-width: 880px) {
     
@@ -304,17 +304,46 @@ main h2 {
 }
 
 .contenedor-tutoriales {
-    display: flex;
+    display: flex;  
     justify-content: space-around;
-    align-items: center;
 }
 
 .tutoriales {
-    display: inline-block;
-    min-width: 450px;  
-    background-color: #159e71;
-    margin-bottom: 4rem;
+    
+    justify-content: space-between; 
+    align-items: center;   
+    background-color: #159e71;   
+    margin: 0 1rem;
 }
+
+iframe {
+    width: 45rem;
+    height: 35rem;
+}
+
+@media (max-width: 1445px) {
+    iframe {
+        width: 30rem;
+        height: 25rem;
+    }
+     
+}
+
+
+@media (max-width: 992px) {
+    .contenedor-tutoriales {
+        display: block;   
+        width: 32rem;  
+        margin: 1rem auto        
+    }
+
+    iframe {
+        ;
+    }
+     
+}
+
+
 
 .tutoriales h3 {
     margin: 1rem;
