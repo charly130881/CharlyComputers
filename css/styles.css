@@ -288,6 +288,11 @@ p {
     object-fit: cover;
     margin-top: 5rem;
 }
+@media (max-width: 798px) {
+     .contenedor-quienes  {
+        width: 55rem;
+     }
+}
 
 /* TUTORIALES */
 
