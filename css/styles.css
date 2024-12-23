@@ -325,10 +325,8 @@ iframe {
     iframe {
         width: 30rem;
         height: 25rem;
-    }
-     
+    }     
 }
-
 
 @media (max-width: 992px) {
     .contenedor-tutoriales {
@@ -342,9 +340,13 @@ iframe {
      .parrafo-tutoriales {
         font-size: 2rem;
      }
+
+     .contenedor-tutoriales {
+        display: block;   
+        width: 32rem;  
+        margin: 1rem auto        
+    }
 }
-
-
 
 .tutoriales h3 {
     margin: 1rem;
