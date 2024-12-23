@@ -333,7 +333,11 @@ iframe {
         display: block;   
         width: 32rem;  
         margin: 1rem auto        
-    }     
+    } 
+    .parrafo-tutoriales {
+        width: 30rem;
+        font-size: 1.8rem;
+     }    
 }
 
 @media (max-width: 530px ) {
