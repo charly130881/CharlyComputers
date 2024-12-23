@@ -262,9 +262,32 @@ p {
     }     
 }
 
+/* QUIENES SOMOS */
 
+.quienes-somos {
+    margin: 0;
+}
 
+.quienes-somos h2 {
+    text-align: center;  
+    font-size: 4.5rem;  
+}
 
+.contenedor-quienes {
+    max-width: 100rem;    
+    margin: 0 auto;    
+}
+
+.contenedor-quienes p {
+    font-size: 2.8rem;
+}
+
+.contenedor-quienes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 5rem;
+}
 
 .tutoriales {
     display: inline-block;
