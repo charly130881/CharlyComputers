@@ -282,6 +282,16 @@ p {
     font-size: 2.8rem;
 }
 
+@media (max-width: 600px) {
+
+    .contenedor-quienes {
+       max-width: 40rem;
+    }
+    .contenedor-quienes p {
+        font-size: 1.5rem;
+    }
+}
+
 .contenedor-quienes img {
     width: 100%;
     height: 100%;
@@ -445,6 +455,7 @@ textarea {
     .mapa {
         text-align: center;        
         margin: 0 auto;
+       
     }
 
     .mapa iframe {
