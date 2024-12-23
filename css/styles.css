@@ -290,7 +290,7 @@ p {
 }
 @media (max-width: 798px) {
      .contenedor-quienes  {
-        width: 55rem;
+        width: 50rem;
      }
 }
 
@@ -360,4 +360,82 @@ iframe {
 
 .tutoriales h3 {
     margin: 1rem;
+}
+
+/* CONTACTO */
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.formulario {
+    width: 40rem;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center ;
+    align-items: center; 
+    margin: 2rem;   
+}
+
+.check {
+    margin: 0 .5rem 0 3rem;
+}
+
+.radio {
+    margin: 0 .5rem 0 3rem;
+}
+
+textarea {
+    font-size: 2rem ;
+    margin-top: 2rem;
+}
+
+.boton {
+    width: 15rem;
+    height: 3rem;
+    margin: 0 2rem;
+    background-color: #159e71;
+    color: #fff;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #fff;
+    color: #159e71;
+    border: 1px solid black;
+}
+
+.mapa iframe{
+    text-align: center;
+    margin: 10rem auto;
+    width: 60rem;
+    height: 40rem;
+}
+
+@media (max-width: 1250px) {
+    .contenedor-contacto {
+        display: block;
+    }
+
+    form {
+        margin: 0;
+    }
+
+    .mapa {
+        text-align: center;
+        margin: 0 auto;
+    }
+     
 }
