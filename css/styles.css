@@ -335,12 +335,13 @@ iframe {
         display: block;   
         width: 32rem;  
         margin: 1rem auto        
-    }
+    }     
+}
 
-    iframe {
-        ;
-    }
-     
+@media (max-width: 530px ) {
+     .parrafo-tutoriales {
+        font-size: 2rem;
+     }
 }
 
 
