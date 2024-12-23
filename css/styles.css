@@ -338,7 +338,8 @@ iframe {
 
 @media (max-width: 530px ) {
      .parrafo-tutoriales {
-        font-size: 1.4rem;
+        width: 30rem;
+        font-size: 1.8rem;
      }
 
      .contenedor-tutoriales {
