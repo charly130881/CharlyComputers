@@ -425,6 +425,15 @@ textarea {
 }
 
 @media (max-width: 1250px) {
+
+    .titulo-contacto {
+        font-size: 1.8rem;
+    }
+
+    .checkbox {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
     .contenedor-contacto {
         display: block;
     }
@@ -434,19 +443,28 @@ textarea {
     }
 
     .mapa {
-        text-align: center;
+        text-align: center;        
         margin: 0 auto;
+    }
+
+    .mapa iframe {
+        width: 35rem;
+        height: 25rem;
     }
      
 }
 
 @media (max-width: 600px) {           
-     textarea {
-        width: 40rem;
+    .titulo-contacto {
+        font-size: 1.8rem;
+    }
+    
+    textarea {
+        width: 35rem;
      }
 
      .formulario{
-        width: 40rem;
+        width: 35rem;
      }
 
     
