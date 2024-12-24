@@ -253,7 +253,7 @@ p {
 
 .footer {
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .footer p {
@@ -339,6 +339,16 @@ main h2 {
 
 .tutoriales h3 {
     font-size: 2.3rem;
+}
+
+@media (max-width: 600px) {
+
+    .tutoriales {
+        margin-bottom: 3rem;
+    }
+    .tutoriales h3 {
+        font-size: 1.6rem;
+    } 
 }
 
 iframe {
