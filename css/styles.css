@@ -170,7 +170,8 @@ nav a:hover{
     text-align: center;
     justify-content: space-between;    
     background-color: #fff;   
-    margin: 0 1rem; 
+    margin: 0 1rem;     
+    border-radius: 2rem;
 }
 
 
@@ -223,7 +224,7 @@ div p {
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:30px;
+    font-size:35px;
     z-index:100;
   }
   
@@ -241,6 +242,8 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-bottom: 2.3rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 p {
@@ -330,6 +333,12 @@ main h2 {
     align-items: center;   
     background-color: #159e71;   
     margin: 0 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.tutoriales h3 {
+    font-size: 2.3rem;
 }
 
 iframe {
@@ -388,7 +397,9 @@ form {
 .formulario {
     width: 40rem;
     height: 3rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    border: solid 1px #00000084;
+    border-radius:5rem;
 }
 
 .checkbox {
@@ -409,7 +420,10 @@ form {
 textarea {
     font-size: 2rem ;
     margin-top: 2rem;
+    border: solid 1px #00000084;
+    border-radius: 2rem;
 }
+
 
 .boton {
     width: 15rem;
@@ -418,6 +432,7 @@ textarea {
     background-color: #159e71;
     color: #fff;
     border: none;
+    border-radius: 5rem;
     font-size: 1.6rem;
     font-weight: bold;
 }
