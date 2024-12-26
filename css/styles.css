@@ -401,6 +401,13 @@ main h2 {
         font-size: 1.8rem;
     }
 }
+
+@media (max-width: 392px) {
+     .tutoriales h3 {
+        font-size: 2rem;
+     }
+}
+
 .tutoriales h3 {
     margin: 1rem;
 }
@@ -463,6 +470,13 @@ textarea {
     border-radius: 5rem;
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+@media (max-width: 392px) {
+    .boton {
+        width: 12rem;
+    } 
+    
 }
 
 .boton:hover {
