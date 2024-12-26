@@ -54,7 +54,7 @@ nav a:hover{
 
 
 
-@media (max-width:70rem){
+@media (max-width:768px){
     header{
         flex-direction: column;
     }
@@ -67,9 +67,9 @@ nav a:hover{
     font-size: 2.3rem;
     margin-left: 1.5rem;
 }
-@media (max-width: 600px ) {
+@media (max-width: 480px ) {
     .nav-link {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }     
 }
 
@@ -77,11 +77,11 @@ nav a:hover{
     margin: 8rem auto 5rem;
     width: 120rem;
     height: 90rem;
-
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
 }
+
 
 .servicio-img{
     width: 100%;
@@ -123,8 +123,10 @@ nav a:hover{
 
 
 
-@media (max-width:70rem){
+@media (max-width:768px){
     .servicio{
+        display: block;
+        margin-top: 0;
         grid-template-rows: repeat(5,1fr);
         width: auto;
         height: auto;
@@ -133,13 +135,6 @@ nav a:hover{
     .servicio-gradient{
         display: none;
     }
-}
-
-@media (max-width: 50rem ) {
-    .servicio{
-        display: block;
-    }
-     
 }
 
 .titulo-servicios{
@@ -176,7 +171,7 @@ nav a:hover{
 
 
 
-@media (max-width: 880px) {
+@media (max-width: 768px) {
     
      .contenedor-servicios1{
         display:block;          
@@ -187,9 +182,15 @@ nav a:hover{
       }
 
       .servicios{   
-        width: 30rem;          
+        width: 50rem;          
         margin: 0 auto 2rem auto;
       }      
+}
+
+@media (max-width: 480px) {
+    .servicios {
+        width: 30rem;
+    }
 }
 
 
@@ -258,11 +259,18 @@ p {
 
 .footer p {
     margin-right: 1rem;
+    font-size: 2.3rem;
 }
 
 @media (max-width: 768px) {
     .footer p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+    }     
+}
+
+@media (max-width: 480x) {
+    .footer p {
+        font-size: 1rem;
     }     
 }
 
@@ -286,13 +294,23 @@ p {
     font-size: 2.8rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
     .contenedor-quienes {
-       max-width: 40rem;
+       max-width: 90rem;
     }
     .contenedor-quienes p {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contenedor-quienes {
+       max-width: 30rem;
+    }
+    .contenedor-quienes p {
+        font-size: 1.8rem;
     }
 }
 
@@ -328,66 +346,61 @@ main h2 {
 }
 
 .tutoriales {
-    
+    width: 40rem; 
+    height: 30rem;   
     justify-content: space-between; 
     align-items: center;   
     background-color: #159e71;   
-    margin: 0 1rem;
+    margin: 2rem 1rem 10rem 1rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+}
+
+.video iframe{
+    width: 40rem;
+    height: 30rem;
 }
 
 .tutoriales h3 {
     font-size: 2.3rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+
+    .contenedor-tutoriales {
+        display: block;        
+    }
 
     .tutoriales {
-        margin-bottom: 3rem;
+        width: 50rem;
+        height: 40rem;
+        margin: 3rem auto;
     }
-    .tutoriales h3 {
-        font-size: 1.6rem;
-    } 
+
+    .tutoriales iframe {
+        width: 50rem;
+        height: 35rem;
+    }    
 }
 
-iframe {
-    width: 45rem;
-    height: 35rem;
-}
+@media (max-width: 480px) {
 
-@media (max-width: 1445px) {
-    iframe {
+    .tutoriales {
         width: 30rem;
         height: 25rem;
-    }     
-}
+        margin: 3rem auto;
+    }
 
-@media (max-width: 992px) {
-    .contenedor-tutoriales {
-        display: block;   
-        width: 32rem;  
-        margin: 1rem auto        
-    } 
+    .tutoriales iframe {
+        width: 30rem;
+        height: 20rem;
+    }   
+    
     .parrafo-tutoriales {
-        max-width: 30rem;
+        width: 30rem;
         font-size: 1.8rem;
-     }    
-}
-
-@media (max-width: 530px ) {
-     .parrafo-tutoriales {
-        max-width: 30rem;
-        font-size: 1.8rem;
-     }
-
-     .contenedor-tutoriales {
-        display: block;   
-        width: 32rem;  
-        margin: 1rem auto        
     }
 }
-
 .tutoriales h3 {
     margin: 1rem;
 }
@@ -465,7 +478,7 @@ textarea {
     height: 40rem;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 768px) {
 
     .titulo-contacto {
         font-size: 1.8rem;
@@ -490,13 +503,13 @@ textarea {
     }
 
     .mapa iframe {
-        width: 35rem;
-        height: 25rem;
+        width: 50rem;
+        height: 35rem;
     }
      
 }
 
-@media (max-width: 600px) {           
+@media (max-width: 480px) {           
     .titulo-contacto {
         font-size: 1.8rem;
     }
@@ -508,6 +521,11 @@ textarea {
      .formulario{
         width: 35rem;
      }    
+
+     .mapa iframe {
+        width: 30rem;
+        height: 25rem;
+    }
 }
 
 /* RESPUESTA */
