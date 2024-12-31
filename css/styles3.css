@@ -140,71 +140,26 @@ nav a:hover{
 
 .titulo-servicios{
     text-align: center;
-    margin: 5rem auto;
+    margin-bottom: 5rem;
 }
 
 
 .contenedor-servicios{    
     display: flex;  
-    flex-wrap: wrap;    
-    margin: 5rem auto;
-    width: 85%;
+    flex-wrap: wrap;
+    justify-content: space-around;     
+    margin: 3rem;
+    width: 90%;
 }
 
 .servicios{
-    background-color: #159e71;
-    width: 40rem;
-    height: 35rem;
+    width: 50rem;
+    height: 40rem;
     text-align: center;
-    justify-content: space-between;       
-    margin: 5rem auto;     
-    border: 2px solid #eeeeee;
+    justify-content: space-between;    
+    background-color: #fff;   
+    margin: 2rem auto;     
     border-radius: 2rem;
-    position: relative;
-}
-
-.servicios:hover {
-    background-color: #fbfbfe;
-}
-
-.servicios:hover .img_servicio {
-    transform: translateY(-9rem);
-}
-
-.servicios:hover h3 {
-    transform: translateY(-9rem);
-}
-
-
-.servicios:hover .contenedor_p p {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.servicios .contenedor_p {    
-    width: 100%;
-    height: 15rem;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    padding: 0 1rem;
-    border-radius: 0 0 1.4rem 1.4rem;
-}
-
-.servicios h3 {
-    transition: all 500ms;
-    margin-top: 1rem;
-    color: #fff;
-    font-size: 2.5rem;
-}
-
-.servicios p{
-    font-size: 1.8rem;
-    color: #292727;
-    opacity: 0;
-    transform: translateY(15rem);
-    transition: all 600ms;
 }
 
 @media (max-width: 768px) {
@@ -225,35 +180,6 @@ nav a:hover{
     }
 }
 
-.servicios img {
-    width: 90%;
-   transition: all 400ms;
-}
-
-.servicios .check {
-    position: absolute;
-    bottom: 2rem;
-    left: 43%;
-    transform: translate(-50%);
-    border: 2px solid transparent;
-    border-radius: 100%;
-    width: 3rem;
-    height: 3rem;
-    background: #159e71;
-}
-
-.servicios .check img{
-    /* margin-top: 1rem; */
-    display: none;
-    color: #FFF;
-}
-
-.check img{
-    width: 3rem;
-    display: none;
-    color: white;
-    margin:0 auto;
-}
 
 .imagen-servicio{
     display: flex;
@@ -295,11 +221,17 @@ div p {
   }
 
 
-.servicio h3 {
-    font-size: 2.3rem;    
+h3 {
+    font-size: 1.8rem;
+    display: flex;    
+    background-color: rgb(21, 158, 113);
+    height: 4rem;
+    color: #fff;
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-    
+    margin-bottom: 2.3rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
 p {
@@ -328,7 +260,6 @@ p {
         font-size: 1rem;
     }     
 }
-
 
 /* QUIENES SOMOS */
 
@@ -624,22 +555,4 @@ textarea {
 
 .border {
     border: grey solid .5px;
-}
-
-
-/* CLASES PARA USAR CON JAVASCRIPT */
-
-.box-selected{
-    border-color: #0e684a;
-    transition: all 600ms;
-}
-
-.icon-check {
-    display: block !important;
-}
-
-.check-selected {
-    background: #159e71 !important;
-    border: none;
-    transition: all 600ms;
 }

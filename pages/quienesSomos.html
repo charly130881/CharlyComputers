@@ -12,21 +12,25 @@
         
         <title>Charly Computers</title>
     </head>
-    <body>
-        <header>
-            <a href="../index.html" class="logo">
+    <body id="bodyOscuroQuienes">
+        <header id="headerOscuro">
+            <a href="index.html" class="logo">
                             
                 <img src="../img/charly-cuadrado.png" alt="Logo Empresa">
                 
     
-                <h2 class="nombre-empresa">Charly Computers</h2>
+                <h2 id="h2Oscuro" class="nombre-empresa">Charly Computers</h2>
             </a>    
-        
-            <nav>
-                <a href="../index.html" class="nav-link">Inicio</a>
-                <a href="quienesSomos.html" class="nav-link">Quiénes somos</a>
-                <a href="tutoriales.html" class="nav-link">Tutoriales</a>
-                <a href="contacto.html" class="nav-link">Contacto</a>            
+            
+            <button onclick="modoOscuro()">
+                <img src="/img/dark.svg" alt="icono modo oscuro">
+            </button>             
+    
+            <nav id="navOscuro">
+                <a id="linkA" href="../index.html" class="nav-link">Inicio</a>
+                <a id="linkB" href="quienesSomos.html" class="nav-link">Quiénes somos</a>
+                <a id="linkC" href="tutoriales.html" class="nav-link">Tutoriales</a>
+                <a id="linkD" href="contacto.html" class="nav-link">Contacto</a>            
             </nav>
         </header>
     
@@ -53,6 +57,8 @@
         </div>
               
     </footer>
+
+    <script src="/js/script.js"></script>
     
 </body>
 </html>
